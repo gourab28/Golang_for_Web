@@ -1,1 +1,1 @@
-web: Golang_for_Web
+web: deployment
