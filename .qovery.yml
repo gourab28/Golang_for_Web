@@ -1,0 +1,11 @@
+---
+application:
+  name: "golang-for-web"
+  project: "go_gourab"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-golang-for-web"
+  routes:
+  - application_name: "golang-for-web"
+    paths:
+    - "/*"
