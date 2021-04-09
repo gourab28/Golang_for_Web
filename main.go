@@ -25,7 +25,7 @@ func Home(w http.ResponseWriter, r *http.Request) {
 		College:    "Golang Docs",
 		RollNumber: 103,
 	}
-	parsedTemplate, _ := template.ParseFiles("template/index.html")
+	parsedTemplate, _ := template.ParseFiles("template/index.tmpl")
 	err := parsedTemplate.Execute(w, homepage)
 	if err != nil {
 		log.Println("Error executing template :", err)
